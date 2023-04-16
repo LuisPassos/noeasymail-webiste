@@ -5,7 +5,7 @@ import { Logo } from '@/components/Logo'
 
 export default function Home() {
   const curlCommand = [
-    'curl -X POST "http://localhost:3333" \\',
+    'curl -X POST "https://api.noeasymail.com" \\',
     '     -H "Content-Type: application/json" \\',
     '     -d \'{"emails": ["email1@noeasymail.com", "email2@noeasymail.com"]}\''
   ].join('\n');
@@ -20,7 +20,7 @@ export default function Home() {
     setSubmitted(true);
 
     try {
-      const response = await fetch('http://localhost:3333?email=' + email, {
+      const response = await fetch('https://api.noeasymail.com?email=' + email, {
         method: 'GET',
       })
 
@@ -150,7 +150,7 @@ export default function Home() {
             <div className="group bg-white/[0.025]">
               <div className="relative">
                 <pre className="overflow-x-auto p-4 text-xs text-white">
-                curl &quot;http://localhost:3333?email=email1@noeasymail.com&quot;
+                curl &quot;https://api.noeasymail.com?email=email1@noeasymail.com&quot;
                 </pre>
               </div>
             </div>
