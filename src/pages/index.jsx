@@ -45,7 +45,7 @@ export default function Home() {
       <header className="flex items-center justify-center py-10">
         <Logo className="h-10 w-auto" />
       </header>
-      <main className="mx-auto max-w-2xl px-6">
+      <main className="sm:mx-auto sm:max-w-2xl px-6">
         <div className="text-center">
           <div className="mb-8 flex justify-center">
             <div className="relative rounded-full bg-white/5 px-3 py-1 text-sm leading-6 text-white ring-1 ring-sky-300">
@@ -149,8 +149,10 @@ export default function Home() {
             </div>
             <div className="group bg-white/[0.025]">
               <div className="relative">
-                <pre className="overflow-x-auto p-4 text-xs text-white">
+                <pre className="overflow-x-auto p-4 text-xs text-white mx-2">
+                <code>
                 curl &quot;https://api.noeasymail.com?email=email1@noeasymail.com&quot;
+                  </code>
                 </pre>
               </div>
             </div>
@@ -160,7 +162,7 @@ export default function Home() {
             status using this endpoint. Perfect for checking large lists of
             email addresses.
           </p>
-          <div className="not-prose my-6 overflow-hidden rounded-lg bg-slate-800/60 shadow-md ring-sky-300/[0.15] dark:ring-1">
+          <div className="not-prose my-6 rounded-lg bg-slate-800/60 shadow-md ring-sky-300/[0.15] dark:ring-1">
             <div className="flex min-h-[calc(theme(spacing.12)+1px)] flex-wrap items-start gap-x-4 border-b border-slate-800 bg-transparent px-4">
               <h3 className="mr-auto pt-3 text-xs font-semibold text-white">
                 POST - Bulk Disposable Email Verification Endpoint
@@ -168,8 +170,10 @@ export default function Home() {
             </div>
             <div className="group bg-white/[0.025]">
               <div className="relative">
-                <pre className="overflow-x-auto p-4 text-xs text-white">
+              <pre className="overflow-x-auto p-4 text-xs text-white mx-2">
+                <code>
                   { curlCommand }
+                  </code>
                 </pre>
               </div>
             </div>
