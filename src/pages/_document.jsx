@@ -21,9 +21,9 @@ export default function Document(props) {
         />
       </Head>
       <body className="flex h-full flex-col">
-        <div class="absolute inset-0 -z-10 overflow-hidden bg-gray-950">
+        <div className="absolute inset-0 -z-10 overflow-hidden bg-gray-950">
           <svg
-            class="absolute -bottom-48 left-[-80%] h-[120rem] w-[180%]"
+            className="absolute -bottom-48 left-[-80%] h-[120rem] w-[180%]"
             aria-hidden="true"
           >
             <defs>
@@ -48,16 +48,16 @@ export default function Document(props) {
               width="100%"
               height="100%"
               fill="url(#:R1d6:-desktop)"
-              class="hidden lg:block"
+              className="hidden lg:block"
             ></rect>
             <rect
               width="100%"
               height="100%"
               fill="url(#:R1d6:-mobile)"
-              class="lg:hidden"
+              className="lg:hidden"
             ></rect>
           </svg>
-          <div class="absolute inset-x-0 bottom-0 right-0 h-px bg-white mix-blend-overlay lg:left-auto lg:top-0 lg:h-auto lg:w-px"></div>
+          <div className="absolute inset-x-0 bottom-0 right-0 h-px bg-white mix-blend-overlay lg:left-auto lg:top-0 lg:h-auto lg:w-px"></div>
         </div>
         <Main />
         <NextScript />
