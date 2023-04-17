@@ -193,7 +193,7 @@ export default function Home() {
               Plus, for your peace of mind, NoEasyMail doesn&apos;t store any data,
               and i&apos;s lightning fast because it runs in memory! ⚡️🔒 <br />{' '}
               And hey, I&apos;ve got you covered if you need to check a batch of
-              emails! NoEasyMail has an endpoint where you can throw in 100
+              emails! NoEasyMail has an endpoint where you can throw in 150
               emails at a time to verify if you currently have disposable emails
               in your database. 📬🔎
             </p>
