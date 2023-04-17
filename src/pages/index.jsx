@@ -41,6 +41,10 @@ export default function Home() {
           name="description"
           content="Instantly detect disposable emails with our free API, safeguarding your online platforms against fraud, spam, and security risks."
         />
+        <meta
+          name="og:image"
+          content="https://www.noeasymail.com/og_image.png"
+        />
       </Head>
       <header className="flex items-center justify-center py-10">
         <Logo className="h-10 w-auto" />
